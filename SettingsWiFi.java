@@ -1,5 +1,6 @@
 package avik.settings.nightlyauto;
 
+//123456
 import java.io.IOException;
 import com.motorola.avik.uiautomatoradapter.AvikTestCase;
 import com.motorola.avik.uiautomatoradapter.AvikUiDevice;
