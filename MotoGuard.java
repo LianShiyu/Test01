@@ -32,8 +32,6 @@ private void capturescreenOfMotoDisplay() throws Exception {
 	device.pressMenu();
 	mUtil.takeAvikScreenshot("MotoGuard_Menu");
 	mUtil.clickByObj("About", "com.lenovo.motoguard:id/title", 0);
-	mUtil.takeAvikScreenshot("MotoGuard_Menu_About");
-	device.pressBack();
 	mUtil.clickByObj("Anti-Virus", "com.lenovo.motoguard:id/app_title", 0);
 	mUtil.takeAvikScreenshot("MotoGuard_AntiVirus_Scanning");
 	sleep(AvikConstant.NORMALWAIT);
